@@ -6,31 +6,31 @@ export default function Carousel() {
       <div className="carousel-inner">
         <div className="carousel-item active">
           <img
-            src={require("../../../assets/img/ke-du-hanh-15761286853539.jpg")}
+            src="./img/ke-du-hanh-15761286853539.jpg"
             alt="..."
           />
         </div>
         <div className="carousel-item">
           <img
-            src={require("../../../assets/img/ccee-15768157060937.jpg")}
+            src="./img/ccee-15768157060937.jpg"
             alt="..."
           />
         </div>
         <div className="carousel-item">
           <img
-            src={require("../../../assets/img/jumanjii-3-15762073170542.jpg")}
+            src="./img/jumanjii-3-15762073170542.jpg"
             alt="..."
           />
         </div>
         <div className="carousel-item">
           <img
-            src={require("../../../assets/img/last-christ-15762073893342.jpg")}
+            src="./img/last-christ-15762073893342.jpg"
             alt="..."
           />
         </div>
         <div className="carousel-item">
           <img
-            src={require("../../../assets/img/mat-biec-15768091323740.jpg")}
+            src="./img/mat-biec-15768091323740.jpg"
             alt="..."
           />
         </div>

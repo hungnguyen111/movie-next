@@ -10,12 +10,13 @@ const codeStyle = {
 }
 
 const ShowReduxState = () => {
-  const state = useSelector((state) => state)
-
+  const state = useSelector((state) => state.userReducer)
+  // console.log(state);
+  
   return (
     <>
       <pre style={codeStyle}>
-        <code>{JSON.stringify(state, null, 4)}</code>
+        <p>{JSON.stringify(state, null, 4)}</p>
       </pre>
       <Link href="/">
         <a>Go Back Home</a>

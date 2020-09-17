@@ -1,4 +1,4 @@
-import * as ActionType from '../Constants/actionType';
+import * as ActionType from '../constants';
 import Axios from 'axios';
 
 
@@ -10,6 +10,7 @@ export const actGetListMovieAPI = () => {
             url: `http://movie0706.cybersoft.edu.vn/api/QuanLyPhim/LayDanhSachPhimPhanTrang?maNhom=GP07&soTrang=1&soPhanTuTrenTrang=12`
         }).then((res) => {
             // localStorage.setItem('homeMovie', JSON.stringify(res.data.items));
+            // console.log(res.data);
             dispatch({
                 type: ActionType.GET_LIST_MOVIE,
                 listMovie: res.data.items

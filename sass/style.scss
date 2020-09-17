@@ -1,0 +1,30 @@
+@import './Helpers/variable';
+@import './Helpers/mixin';
+@import './Base/nomalized';
+@import './Base/reset';
+
+@import './Layout/header';
+@import './Layout/carousel';
+@import './Layout/menu-mobile';
+@import './Layout/selectMenu';
+@import './Layout/homeMovie';
+@import './Layout/homeCinemaComplex';
+@import './Layout/footer';
+@import './Layout/homeNews';
+@import './Layout/tintuc';
+@import './Layout/homeApp';
+
+//detail layout
+@import './Layout/Detail/detail';
+@import './Layout/Detail/detailCinemaComplex';
+
+//checkout layout
+@import './Layout/home/checkout/checkout';
+
+//admin layout
+@import './Layout/admin/signin';
+@import './Layout/admin/signup';
+@import './Layout/admin/dashboard';
+
+//profile
+@import './Layout/user/profile';
